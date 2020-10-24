@@ -1,0 +1,122 @@
+.top-container{
+  background-color: #f4f4f4;
+  padding-top: 100px;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 375px;
+  top:50px;
+}
+
+h1{
+  margin-top: 0;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 90px;
+  color:#557571;
+}
+
+.man{
+font-size: 30px;
+color:#557571;
+font-weight: normal;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 375px;
+  bottom: 270px;
+}
+
+.athena{
+  width: 24%;
+}
+
+.middle-container{
+background-color: #f7d1ba;
+padding-bottom: 20px;
+}
+
+.bear{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 13%;
+}
+
+h2{
+  margin: 30px;
+
+}
+
+h3{
+  color:#557571;
+}
+
+p{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.flamingo{
+  float:left;
+  padding-right: 30px;
+}
+
+.tori{
+  float: right;
+  padding-left:30px;
+}
+
+.bottom-container{
+background-color: #557571;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.btn{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.button{
+  border: 10px;
+  background-color: #f7d1ba;
+  font-size: 16px;
+  padding: 15px 32px;
+  border-radius: 10px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.button:hover{
+  background-color: #f4f4f4;
+}
+
+.footer-link{
+  padding: 10px 10px 0 10px;
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.copyright{
+  font-size: 14px;
+}
+
+.skills{
+  background-color: #f4f4f4;
+  padding-bottom: 5px;
+}
+
+.myskills{
+  padding-top: 40px;
+}

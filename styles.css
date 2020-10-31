@@ -11,7 +11,7 @@ body{
 
 .top-cloud{
   position:absolute;
-  right: 375px;
+  right: 25%;
   top:50px;
 }
 
@@ -30,8 +30,8 @@ font-weight: normal;
 
 .bottom-cloud{
   position: absolute;
-  left: 375px;
-  bottom: 270px;
+  left: 25%;
+  bottom: 230px;
 }
 
 .athena{

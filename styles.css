@@ -175,6 +175,7 @@ a:hover{
 @media (max-width: 1000px){
   .skill-row{
     text-align: center;
+    width: 75%;
 
   }
   .flamingo{

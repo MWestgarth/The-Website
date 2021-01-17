@@ -1,3 +1,29 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 .top-container{
   background-color: #f4f4f4;
   padding-top: 100px;
@@ -13,6 +39,7 @@ body{
   position:absolute;
   right: 25%;
   top:50px;
+  padding-top: 30px;
 }
 
 h1{
@@ -26,12 +53,15 @@ h1{
 font-size: 30px;
 color:#557571;
 font-weight: normal;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .bottom-cloud{
   position: absolute;
   left: 25%;
-  bottom: 230px;
+  bottom: 200px;
+  padding-bottom: 200px;
+
 }
 
 .athena{
@@ -41,25 +71,36 @@ font-weight: normal;
 .middle-container{
 background-color: #f7d1ba;
 padding-bottom: 20px;
+
+}
+
+.info{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .bear{
   padding-top: 40px;
-  padding-bottom: 30px;
-  width: 13%;
+  padding-bottom: 15px;
+  width: 15%;
 }
 
 h2{
   margin: 30px;
-
+  font-size: 1.6rem;
+  font-family: 'Permanent Marker', cursive;
 }
 
 h3{
   color:#557571;
+  font-size: 1.4rem;
+    font-family: 'Permanent Marker', cursive;
 }
 
 p{
-  font-family: 'Permanent Marker', cursive;
+
+  font-size: 1.2rem;
 }
 
 .skill-row{
@@ -71,11 +112,13 @@ p{
 .flamingo{
   float:left;
   padding-right: 30px;
+  color:#808080;
 }
 
 .tori{
   float: right;
   padding-left:30px;
+  color:#808080;
 }
 
 .bottom-container{
@@ -110,6 +153,7 @@ margin-bottom: 10px;
 
 .copyright{
   font-size: 14px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .skills{
@@ -117,6 +161,28 @@ margin-bottom: 10px;
   padding-bottom: 5px;
 }
 
+a:hover{
+  color: white;
+
+}
+
 .myskills{
-  padding-top: 40px;
+  padding-top: 80px;
+}
+
+
+@media (max-width: 700px){
+  .skill-row{
+    text-align: center;
+
+  }
+  .flamingo{
+    float:initial;
+    padding-right: initial;
+  }
+
+  .tori{
+    float:initial;
+    padding-left: initial;
+  }
 }
